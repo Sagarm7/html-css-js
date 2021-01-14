@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            
+        }
+        header ::before{
+            background: url(https://source.unsplash.com/user/erondu/1600x900) no-repeat center center/cover;
+            content:"";
+            position:absolute;
+            width:100%;
+            height:100%;
+            z-index: -1;
+            top:0;
+            left:0;
+            opacity:0.3;
+
+        }
+
+        section {
+            /* border:2px solid red; */
+            justify-content: center;
+            margin: 56px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .navigation {
+            display: flex;
+            font-size: 20px;
+
+        }
+
+        section::before {
+            /*section::after is used to write the content after */
+            content: "This is a content"
+        }
+
+        li {
+            list-style: none;
+            padding: 34px 23px;
+        }
+
+        h3 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h3>welcome to coding world</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima inventore hic molestiae eaque a
+            deleniti cupiditate. Quo, dignissimos consequatur! Explicabo omnis, architecto dolores corrupti officia
+            culpa exercitationem praesentium modi necessitatibus suscipit, iste aliquam.</p>
+    </section>
+    <hr>
+
+</body>
+
+</html>

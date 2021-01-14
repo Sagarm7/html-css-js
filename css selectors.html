@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* div li p {
+            color: yellow;
+            font-weight: bold;
+            background-color: green; */
+                    
+            div > p {
+            color: yellow;
+            font-weight: bold;
+            background-color: green; 
+
+        }
+
+        div + p {
+            color: white;
+            background-color: rgb(247, 136, 136);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <p>This is outer most paragraph</p>
+            <ul>
+                <li class="item">
+                    <p>This is another paragraph under li</p>
+                </li>
+
+            </ul>
+            <p>This is a paragraph</p>
+
+        </div>
+        <p>This is a another paragraph</p>
+    </div>
+    <p>This is outer most paragraph</p>
+    <div class="number">
+        <p>
+            this is another paragraph
+        </p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		#head{color: rgb(59, 75, 218);}
+		#texts{color:rgb(112, 150, 233)}
+	</style>
+</head>
+<body>
+	<h1 id="head">Register</h1>
+	<form id="texts">
+		<label>
+			Firstname
+			<input type="text" placeholder="john" name="" required="">
+		</label>
+		<label>
+			Lastname
+			<input type="text" placeholder="smith" name="" required="">
+		</label>
+		<p>
+			<label>
+				Male
+				<input type="radio" name="gender" value="MALE">
+			</label>
+			<label>
+				Female
+				<input type="radio" name="gender" value="FEMALE">
+			</label>
+			<label>
+				Others
+				<input type="radio" name="gender" value="OTHERS">
+			</label>
+		</p>
+		<p>
+			<label>
+				Email
+				<input type="email" placeholder="your email" required="">
+			</label>
+			<label>
+				Password
+				<input type="password" placeholder="your password" required="">
+			</label>
+		</p>
+		<p>
+			<label>
+				Birthday
+				<select>
+					<option>Month</option>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+				</select>
+				<select>
+					<option>Day</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+				</select>
+				<select>
+					<option>Year</option>
+					<option>2000</option>
+					<option>2001</option>
+					<option>2002</option>
+				</select>
+			</label>
+		</p>
+		<p>
+			I agree to the terms and conditions.
+			<input type="checkbox" required="">
+		</p>
+		<button>submit</button>
+	</form>
+
+
+</body>
+</html>
